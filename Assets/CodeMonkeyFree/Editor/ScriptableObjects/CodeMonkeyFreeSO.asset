@@ -14,47 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1772527533
+  lastShownTimestamp: 1773466089
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1772527533
+  checkedLastUpdateTimestamp: 1773466089
   lastQOTDResponse:
-    questionId: 277
-    questionText: 'What is the value stored in percentage?
+    questionId: 281
+    questionText: 'What is the result of this code:
 
-      <p>int health =
-      25;</p>
+      <p>int money = 2000000000;
+      // $2 billion</p>
 
-      <p>int healthMax = 100;</p>
-
-      <p>float percentage = health
-      / healthMax;</p>'
-    answerA: 0.25f
-    answerB: 0
-    answerC: 2.5f
+      <p>money += 1000000000; // Adding $1 billion</p>'
+    answerA: money == 3000000000
+    answerB: money == -1294967296
+    answerC: money == 0
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1772527533
+  lastQotdTimestamp: 1773466089
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
-    topText: Stay up to date with the latest in Game Dev straight to your inbox!
-    topLink: gamedevreport
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleMar26Audio.png
+    topText: Awesome HumbleBundle with thousands of SFX and Music, 99% OFF!
+    topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1772527533
+  lastDynamicHeaderTimestamp: 1773466089
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1772527533
+  websiteLatestMessageTimestamp: 1773466089
   websiteLatestVideos:
     videos:
-    - youTubeId: uNNz1kOsLVw
-      title: Steam's 30% Cut Isn't Even the Biggest Problem!
-    - youTubeId: XShVX_PBi1o
-      title: BEST NEW Visual Assets to INSPIRE YOU! (FEBRUARY 2026)
-    - youTubeId: RXf1jsXxWkg
-      title: Learn how to write PRO level code with this DEEP DIVE!
-    - youTubeId: Lm_YTrn9KYc
-      title: Unity HDRP is DEAD!
-  websiteLatestVideosTimestamp: 1772527533
+    - youTubeId: 5VcshVc1a_k
+      title: How To Make Diegetic 3D UI In Unity (EASY!)
+    - youTubeId: nwW5UB_gBi8
+      title: How to make a living from Indie Dev WITHOUT a Hit!
+    - youTubeId: _QrcgWsr2PI
+      title: What is the FUTURE of Unity in 2026?
+    - youTubeId: PZnS3TwucQg
+      title: The Biggest Indie MISTAKE! (and 7 other tips)
+  websiteLatestVideosTimestamp: 1773466089
