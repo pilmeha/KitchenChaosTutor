@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 734d7c4f16df0064887b4c36971c5771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
-  tomatoPrefab: {fileID: 5798438429981986045, guid: 8f4930de75d69c340a634ee5d284ef18, type: 3}
+  kitchenObjectSO: {fileID: 11400000, guid: 3678fdbfb0998124c88f1dc4a638a480, type: 2}
   counterTopPoint: {fileID: 6608554017639829450}
 --- !u!1 &1350197358526710273
 GameObject:
