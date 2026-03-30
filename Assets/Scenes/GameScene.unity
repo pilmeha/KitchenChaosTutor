@@ -835,6 +835,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 520c7db41d388e448a4065f03be69776, type: 3}
+--- !u!114 &1839524008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5330654881038024375, guid: 520c7db41d388e448a4065f03be69776, type: 3}
+  m_PrefabInstance: {fileID: 1668413196}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 734d7c4f16df0064887b4c36971c5771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
 --- !u!1001 &2036469953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -907,6 +918,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5330654881038024375, guid: 520c7db41d388e448a4065f03be69776, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5330654881038024375, guid: 520c7db41d388e448a4065f03be69776, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 1839524008}
     - target: {fileID: 1116912120221002389, guid: 520c7db41d388e448a4065f03be69776, type: 3}
       propertyPath: m_Name
       value: ClearCounter
