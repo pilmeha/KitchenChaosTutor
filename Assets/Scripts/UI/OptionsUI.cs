@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -26,6 +27,8 @@ public class OptionsUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI interactAlternateText;
     [SerializeField] private TextMeshProUGUI pauseText;
     [SerializeField] private Transform pressToRebindKeyTransform;
+
+    private Action onCloseButtonAction;
 
 
     private void Awake()
@@ -70,6 +73,7 @@ public class OptionsUI : MonoBehaviour
     private void KitchenGameManager_OnGameUnpaused(object sender, System.EventArgs e)
     {
         Hide();
+        onCloseButtonAction();
     }
 
     private void UpdateVisual()
@@ -86,9 +90,11 @@ public class OptionsUI : MonoBehaviour
         pauseText.text = GameInput.Instance.GetBindingText(GameInput.Binding.Pause);
     }
 
-    public void Show()
+    public void Show(Action onCloseButtonAction)
     {
         gameObject.SetActive(true);
+
+        soundEffectsButton.Select();
     }
 
     private void Hide()
